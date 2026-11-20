@@ -125,6 +125,5 @@ func main() {
 	fmt.Printf("  %-13s %8.0f %10.4f %9s %10.2f %5s %8.2f%% %11.2f\n\n",
 		"Total", totalUSD, totalBTC, "", totalYield, "", annualisedYield*100, totalAnnualised)
 
-	fmt.Printf("  Annualised yield:  %.2f%%  $%.2f\n", annualisedYield*100, totalAnnualised)
-	fmt.Printf("  Monthly yield:     %.3f%%  $%.2f\n", annualisedYield/12*100, totalAnnualised/12)
+	fmt.Printf("  Monthly: $%.2f\n", totalAnnualised/12)
 }
